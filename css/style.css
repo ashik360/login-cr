@@ -1,5 +1,7 @@
 body {
   background: url("https://pixabay.com/get/gec77943dcd65221b1e1bd4ba5177c0c5807672b1a6c101efc1034373ddd52540f1a6a995c932a7d5e7ef99c606d7a6b418ee8199bbb19459fd8bf361e6c1fba820ca7548f0168f8f13f6ad0142dd854d_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 input {
@@ -30,6 +32,7 @@ input {
   text-align: center;
   background: rgba(202, 221, 215, 0.774);
   padding: 20px 0px;
+  border-radius: 15px;
 }
 input {
   border: none;
@@ -40,7 +43,7 @@ button {
   background: #538199;
   color: #fff;
   font-size: 16px;
-  padding: 20px 100px;
+  padding: 1.1vw 5vw;
   border: none;
   border-radius: 15px;
 }
@@ -49,3 +52,15 @@ button:hover{
     font-size: large;
     cursor: pointer;
 }
+
+@media screen and (max-width: 420px) {
+    .form{
+      width: 80vw;
+    }
+  }
+
+@media screen and (max-width: 1280px) {
+    .form{
+      width: 88vw;
+    }
+  }
