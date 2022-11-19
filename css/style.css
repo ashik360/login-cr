@@ -1,0 +1,51 @@
+body {
+  background: url("https://pixabay.com/get/gec77943dcd65221b1e1bd4ba5177c0c5807672b1a6c101efc1034373ddd52540f1a6a995c932a7d5e7ef99c606d7a6b418ee8199bbb19459fd8bf361e6c1fba820ca7548f0168f8f13f6ad0142dd854d_1920.jpg");
+}
+
+input {
+  padding: 10px 50px;
+  margin: 10px 0px;
+}
+
+.fa-regular {
+  color: azure;
+  font-size: 100px;
+  background: #538199;
+  font-size: 5vw;
+  padding: 18px;
+  border: 10px solid #538199;
+  border-radius: 50%;
+}
+
+.AllPart {
+  color: #fff;
+  text-align: center;
+}
+
+.form {
+  width: 20%;
+  height: 60%;
+  margin: 0 auto;
+  margin-top: 200px;
+  text-align: center;
+  background: rgba(202, 221, 215, 0.774);
+  padding: 20px 0px;
+}
+input {
+  border: none;
+  border-radius: 15px;
+}
+
+button {
+  background: #538199;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px 100px;
+  border: none;
+  border-radius: 15px;
+}
+button:hover{
+    background: #2497d4;
+    font-size: large;
+    cursor: pointer;
+}
